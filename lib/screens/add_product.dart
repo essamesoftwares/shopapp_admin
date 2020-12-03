@@ -44,7 +44,7 @@ class _AddProductState extends State<AddProduct> {
   void initState() {
     _getCategories();
     _getBrands();
-    super.initState();
+    //super.initState();
   }
 
   List<DropdownMenuItem<String>> getCategoriesDropdown() {
